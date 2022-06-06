@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="818c6a69-1fa4-49c1-b346-71fb88a9b107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/layouts/MainLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layouts/MainLayout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Draggable/Draggable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Draggable/Draggable.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,13 +73,29 @@
       <option name="presentableId" value="Default" />
       <updated>1654529197249</updated>
       <workItem from="1654529206716" duration="1723000" />
+      <workItem from="1654544519455" duration="4488000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="462" y="225" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654544715870">
+      <screen x="0" y="25" width="1440" height="788" />
+    </state>
+    <state x="462" y="225" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.788@0.25.1440.788" timestamp="1654544715870" />
     <state x="-1688" y="403" key="Vcs.Push.Dialog.v2" timestamp="1654529562071">
       <screen x="-2560" y="-30" width="2560" height="1400" />
     </state>
@@ -69,6 +104,10 @@
       <screen x="-2560" y="-30" width="2560" height="1400" />
     </state>
     <state x="-1479" y="576" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1654529558383" />
+    <state x="385" y="188" key="run.anything.popup" timestamp="1654547286506">
+      <screen x="0" y="25" width="1440" height="788" />
+    </state>
+    <state x="385" y="188" key="run.anything.popup/0.25.1440.788@0.25.1440.788" timestamp="1654547286506" />
     <state x="-1617" y="285" width="672" height="678" key="search.everywhere.popup" timestamp="1654531091424">
       <screen x="-2560" y="-30" width="2560" height="1400" />
     </state>
