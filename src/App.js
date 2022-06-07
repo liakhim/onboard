@@ -1,14 +1,22 @@
 import logo from './logo.svg';
+import React from "react";
+import { StrictMode } from 'react'
 import MainLayout from "./layouts/MainLayout";
+import ApiTest from "./components/ApiTest/ApiTest.js";
+import './styles/main.scss';
 import './App.css';
 
 const App = () => {
     return (
-        <MainLayout>
-            <div className="App">
-                <p>test</p>
-            </div>
-        </MainLayout>
+        <React.StrictMode>
+            <MainLayout>
+                <div className="App">
+                    <div className="test-block">
+                        <ApiTest/>
+                    </div>
+                </div>
+            </MainLayout>
+        </React.StrictMode>
     );
 }
 
