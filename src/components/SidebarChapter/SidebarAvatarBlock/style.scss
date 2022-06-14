@@ -1,0 +1,12 @@
+.avatar-block {
+  cursor: pointer;
+  img {
+    transition: 0.3s;
+  }
+  &:hover {
+    img {
+      transform: scale(1.05);
+      box-shadow: 0 0 10px gray;
+    }
+  }
+}

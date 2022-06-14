@@ -20,15 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818c6a69-1fa4-49c1-b346-71fb88a9b107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ApiTest/ApiTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Draggable/Draggable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Draggable/Draggable.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/_normalize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContextTrain/ComponentA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContextTrain/ComponentB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContextTrain/Context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContextTrain/ContextTrain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SidebarChapter/SidebarAvatarBlock/SidebarAvatarBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SidebarChapter/SidebarAvatarBlock/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Test/Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stores/sidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/MainLayout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/MainLayout.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +64,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../laravel_dev/projects/dashboard-frontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -75,6 +84,10 @@
       <updated>1654529197249</updated>
       <workItem from="1654529206716" duration="1723000" />
       <workItem from="1654544519455" duration="4488000" />
+      <workItem from="1654773580404" duration="32394000" />
+      <workItem from="1655112797984" duration="695000" />
+      <workItem from="1655126747400" duration="253000" />
+      <workItem from="1655192121024" duration="14241000" />
     </task>
     <servers />
   </component>
@@ -94,25 +107,57 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="462" y="225" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654544715870">
-      <screen x="0" y="25" width="1440" height="788" />
+    <state x="616" y="264" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1654870802718">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="-1739" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1654781645081" />
+    <state x="616" y="264" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1654870802718" />
     <state x="462" y="225" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.788@0.25.1440.788" timestamp="1654544715870" />
-    <state x="-1688" y="403" key="Vcs.Push.Dialog.v2" timestamp="1654529562071">
+    <state x="-1500" y="425" key="FileChooserDialogImpl" timestamp="1655112946825">
       <screen x="-2560" y="-30" width="2560" height="1400" />
     </state>
-    <state x="-1688" y="403" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1654529562071" />
+    <state x="-1500" y="425" key="FileChooserDialogImpl/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1655112946825" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1654868377683">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1654868377683" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1654868377682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1654868377682" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1654868377682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1654868377682" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1654868377682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1654868377682" />
+    <state x="-1772" y="315" key="SettingsEditor" timestamp="1655206148409">
+      <screen x="-2560" y="-30" width="2560" height="1400" />
+    </state>
+    <state x="-1772" y="315" key="SettingsEditor/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1655206148409" />
+    <state x="-1688" y="403" key="Vcs.Push.Dialog.v2" timestamp="1654617161264">
+      <screen x="-2560" y="-30" width="2560" height="1400" />
+    </state>
+    <state x="-1688" y="403" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1654617161264" />
+    <state x="-2468" y="62" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1655209226739">
+      <screen x="-2560" y="-30" width="2560" height="1400" />
+    </state>
+    <state x="-2468" y="62" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1655209226739" />
     <state x="-1479" y="576" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1654529558383">
       <screen x="-2560" y="-30" width="2560" height="1400" />
     </state>
     <state x="-1479" y="576" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1654529558383" />
-    <state x="385" y="188" key="run.anything.popup" timestamp="1654547286506">
-      <screen x="0" y="25" width="1440" height="788" />
-    </state>
-    <state x="385" y="188" key="run.anything.popup/0.25.1440.788@0.25.1440.788" timestamp="1654547286506" />
-    <state x="-1617" y="285" width="672" height="678" key="search.everywhere.popup" timestamp="1654597404600">
+    <state x="-1876" y="260" key="run.anything.popup" timestamp="1654863100553">
       <screen x="-2560" y="-30" width="2560" height="1400" />
     </state>
-    <state x="-1617" y="285" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1654597404600" />
+    <state x="-1876" y="260" key="run.anything.popup/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1654863100553" />
+    <state x="385" y="188" key="run.anything.popup/0.25.1440.788@0.25.1440.788" timestamp="1654547286506" />
+    <state x="707" y="234" width="672" height="504" key="search.everywhere.popup" timestamp="1654871179127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1617" y="285" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1654857706076" />
+    <state x="707" y="234" width="672" height="504" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1654871179127" />
   </component>
 </project>
