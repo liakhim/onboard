@@ -1,19 +1,20 @@
 import React from "react";
 import './style.scss'
-import Sidebar from "../../../stores/sidebar";
-const sidebar = new Sidebar();
+import sidebar from "../../../stores/sidebar";
+import { Link } from 'react-router-dom'
 const SidebarAvatarBlock = (props) => {
     return (
-        <div onClick={() => sidebar.getPost(55)}
+        <Link to={`/profile/${props.id}`}
              className={'avatar-block'}>
             <img src={props.imageUrl}
                  className="rounded-circle"
                  style={{width: props.width}}
                  alt="Avatar"/>
-        </div>
+        </Link>
     )
 }
 SidebarAvatarBlock.defaultProps = {
+    id: 0,
     imageUrl: "https://mdbcdn.b-cdn.net/img/new/avatars/1.webp",
     width: "60px"
 };

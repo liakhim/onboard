@@ -6,7 +6,7 @@ import {
     computed
 } from "mobx";
 
-export default class Sidebar {
+class Sidebar {
     user
     posts
     post
@@ -43,3 +43,4 @@ export default class Sidebar {
             })
     }
 }
+export default new Sidebar()
