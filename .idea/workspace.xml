@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="818c6a69-1fa4-49c1-b346-71fb88a9b107" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/.npmrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/PersonalProfile/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hooks/FriendStatus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/PersonalProfile/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/PersonalProfile/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1654773580404" duration="32394000" />
       <workItem from="1655112797984" duration="695000" />
       <workItem from="1655126747400" duration="253000" />
-      <workItem from="1655192121024" duration="44868000" />
+      <workItem from="1655192121024" duration="46448000" />
     </task>
     <servers />
   </component>
@@ -130,10 +128,10 @@
       <screen x="-2560" y="-30" width="2560" height="1400" />
     </state>
     <state x="-1772" y="315" key="SettingsEditor/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1655206148409" />
-    <state x="-1688" y="403" key="Vcs.Push.Dialog.v2" timestamp="1655390419839">
+    <state x="-1688" y="403" key="Vcs.Push.Dialog.v2" timestamp="1655471361097">
       <screen x="-2560" y="-30" width="2560" height="1400" />
     </state>
-    <state x="-1688" y="403" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1655390419839" />
+    <state x="-1688" y="403" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-2560.-30.2560.1400@-2560.-30.2560.1400" timestamp="1655471361097" />
     <state x="-2468" y="62" width="2376" height="1216" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1655302895622">
       <screen x="-2560" y="-30" width="2560" height="1400" />
     </state>
